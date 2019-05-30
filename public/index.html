@@ -1,0 +1,32 @@
+<!doctype html>
+  <html>
+   <head>
+     <title>Fancy Logs</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
+   </head>
+   <body>
+
+    <script src="main.js"></script>
+
+    <script>
+
+      const customColors = {
+        fragment: {
+          backgroundColor: '#FD6953',
+          textColor: '#000'
+        }
+      }
+
+      const fancyLogs = new FancyLogs.default(customColors)
+      fancyLogs.info('just so you now', 'This is very informative')
+      fancyLogs.success('hell yeah', { hey: 'ho' }, { lets: 'go' })
+      fancyLogs.warning('well it could get dangerous', { you: 'know' }, { what: 'I mean' })
+      fancyLogs.error('ups', { we: 'broke it' })
+      fancyLogs.fragment('custom fragment color', { contact_us: 'https://www.fragment.agency/' })
+
+      fancyLogs.setEnabled(false)
+      fancyLogs.error('no more logs', { we: 'we use this in production' })
+    </script>
+
+   </body>
+  </html>
