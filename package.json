@@ -1,8 +1,8 @@
 {
   "name": "fragment-fancylogs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fancy console logs",
-  "main": "app/index.js",
+  "main": "dist/index.js",
   "author": "Fragment Agency <hello@fragment.agency>",
   "license": "MIT",
   "scripts": {

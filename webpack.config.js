@@ -7,10 +7,9 @@ module.exports = {
     main: './app/index.js',
   },
   output: {
-    filename: '[name].js',
+    filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'FancyLogs',
-    libraryTarget: 'var',
+    libraryTarget: 'commonjs2',
   },
   module: {
     rules: [
