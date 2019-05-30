@@ -1,6 +1,6 @@
 {
   "name": "fragment-fancylogs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fancy console logs",
   "main": "dist/index.js",
   "author": "Fragment Agency <hello@fragment.agency>",
